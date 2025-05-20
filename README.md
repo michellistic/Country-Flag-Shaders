@@ -1,2 +1,2 @@
-# Flag-of-Nigeria-shader
-It's a flag of Nigeria..superb.
+# Country-flag-shaders
+Flags of different countries I made in Shader Toy.

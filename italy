@@ -1,0 +1,12 @@
+void mainImage(out vec4 fragColor, in vec2 fragCoord) {
+    vec2 uv = fragCoord / iResolution.xy;
+    vec3 color = vec3(1, 1, 1);
+    
+    //mama mia
+
+    
+    if (uv.x < 0.33) color = vec3(0, 0.55, 0.27);
+    if (uv.x > 0.66) color = vec3(0.8, 0.13, 0.16); 
+    
+    fragColor = vec4(color, 1);
+        }
